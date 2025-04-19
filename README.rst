@@ -74,6 +74,7 @@ plugin update/install
 ```
 tutor plugins update   
 tutor plugins install indigo mfe
+tutor plugins enable indigo mfe
 
 tutor dev run lms bash  
 python manage.py cms makemigrations enterprise
