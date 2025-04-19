@@ -69,6 +69,13 @@ From source
 3. pyinstaller tutor.spec
 4. ./dist/tutor --version
 
+plugin update/install
+---------------------
+```
+tutor plugins update   
+tutor plugins install indigo mfe
+```
+
 Run tutor
 ---------
 ```
