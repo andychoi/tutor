@@ -66,7 +66,7 @@ From source
 -----------
 1. git clone URL
 2. pip install -e '.[dev]'
-3. pyinstaller --onefile --name tutor tutor/commands/cli.py
+3. pyinstaller tutor.spec
 4. ./dist/tutor --version
 5. ./dist/tutor local start
 
