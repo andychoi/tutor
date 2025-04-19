@@ -62,6 +62,11 @@ Quickstart
 2. Run ``tutor local launch``
 3. You're done!
 
+pip install -e '.[dev]'
+pyinstaller --onefile ./bin/main.py  
+./dist/tutor --version
+./dist/tutor local start
+
 Documentation
 -------------
 
