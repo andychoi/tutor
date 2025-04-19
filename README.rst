@@ -68,7 +68,14 @@ From source
 2. pip install -e '.[dev]'
 3. pyinstaller tutor.spec
 4. ./dist/tutor --version
-5. ./dist/tutor local start
+
+Run tutor
+---------
+```
+tutor local launch # for local installations
+tutor dev launch   # for local development installations
+tutor k8s launch   # for Kubernetes installation
+```
 
 Documentation
 -------------
