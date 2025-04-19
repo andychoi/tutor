@@ -64,11 +64,11 @@ Quickstart
 
 From source
 -----------
-git clone URL
-pip install -e '.[dev]'
-pyinstaller --onefile ./bin/main.py  
-./dist/tutor --version
-./dist/tutor local start
+1. git clone URL
+2. pip install -e '.[dev]'
+3. pyinstaller --onefile ./bin/main.py  
+4. ./dist/tutor --version
+5. ./dist/tutor local start
 
 Documentation
 -------------
